@@ -14,18 +14,18 @@ var isPalindrome = function(x) {
 
 Solution 2*/
 
-// var isPalindrome = function(x) {
-//     let y = 0;
-//     let z = x;
-//     if (x < 0) return false; 
+var isPalindrome = function(x) {
+    let y = 0;
+    let z = x;
+    if (x < 0) return false; 
 
-//     while (x > 0)
-//     {
-//         y = y * 10 + x % 10;  
-//         x = parseInt( x/10);
-//     }
-//    return y==z;
-// };
+    while (x > 0)
+    {
+        y = y * 10 + x % 10;  
+        x = parseInt( x/10);
+    }
+   return y==z;
+};
 
 //Solution 3
 var isPalindrome = function(x) {
